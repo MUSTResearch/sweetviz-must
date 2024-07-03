@@ -12,13 +12,13 @@ from sweetviz import sv_html_formatters
 from sweetviz.config import config
 
 register_matplotlib_converters()
-#matplotlib.use('SVG')
-#matplotlib.use('tkagg')
+# matplotlib.use('SVG')
+# matplotlib.use('tkagg')
 plt.rcParams['svg.fonttype'] = 'path'
 # plt.rcParams['svg.fonttype'] = 'none'
 
-COLOR_TARGET_SOURCE = "#004bd1"
-COLOR_TARGET_COMPARE = "#e54600"
+COLOR_TARGET_SOURCE = "#cc0000"
+COLOR_TARGET_COMPARE = "#cc0000"
 
 class Graph:
     def __init__(self):

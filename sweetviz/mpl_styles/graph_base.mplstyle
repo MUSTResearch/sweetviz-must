@@ -21,7 +21,7 @@ patch.edgecolor        : 58544f   ## if forced, or patch is not filled
 patch.force_edgecolor  : False   ## True to always use edgecolor
 patch.antialiased      : True    ## render patches in antialiased (no jaggies)
 
-axes.prop_cycle        : cycler('color', ['0088ed', 'ff7721', '2ca02c', 'd62728', '9467bd', '8c564b', 'e377c2', '7f7f7f', 'bcbd22', '17becf'])
+axes.prop_cycle        : cycler('color', ['cccccc', 'ff7721', '2ca02c', 'd62728', '9467bd', '8c564b', 'e377c2', '7f7f7f', 'bcbd22', '17becf'])
                       ## color cycle for plot lines  as list of string
                       ## colorspecs: single letter, long name, or web-style hex
 					  ## Note the use of string escapes here ('1f77b4', instead of 1f77b4)
